@@ -42,8 +42,9 @@ The analysis of the election shows that:
 * The county with highest turnout were:
   * Denver, who received 82.8% of total vote and 306,055 number of votes
 
-![Election_Analysis](Election_Analysis.png)
+![Election_results](Resources/Election_results.png)\
+Figure 1: the election results that writen in the txt file.
 
 ## Summary
-
+In this project, we have created an excutable script to read election data from a csv file. To analysis data from other election, we can simply change our path to the reading file. To determine the candidate_name and county_name from the new csv file, we need to look through the csv file header.
 
