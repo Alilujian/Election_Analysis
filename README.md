@@ -46,5 +46,14 @@ The analysis of the election shows that:
 Figure 1: the election results that writen in the txt file.
 
 ## Summary
-In this project, we have created an excutable script to read election data from a csv file. To analysis data from other election, we can simply change our path to the reading file. To determine the candidate_name and county_name from the new csv file, we need to look through the csv file header.
+In this project, we have created an excutable script to read election data from a csv file. To analysis data from other election, we can simply change our path to the reading file. 
+
+![reading_file](reading_file.png)\
+Figure 2: the code for reading csv file.
+
+In a new csv file, we nee dot determine the name of candidates and county to read. We need to look through the csv filed to determine the rows that contain our candidate name and county name. After we found the rows, we can read them as the code shows in figure 3.
+
+![csv_header](csv_header.png)\
+Figure 3: the code for reading candidate name and county name.
+
 
